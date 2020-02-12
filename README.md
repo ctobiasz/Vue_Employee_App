@@ -6,8 +6,8 @@ This project was a code along, created to teach the many aspects to a Vue projec
 
 If you would like to run this application, simply:
 
-```npm install```
+1) ```npm install```
 
-```npm run serve```
+2) ```npm run serve```
 
-If you're interested in Vue or perhaps, wish to follow the code along, please visit [Tania Rascia website](https://www.taniarascia.com/).
+If you're interested in Vue or wish to follow the code along, please visit [Tania Rascias website](https://www.taniarascia.com/).
