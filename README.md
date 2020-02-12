@@ -1,24 +1,13 @@
-# vue-app
+#Vue-Employee-App
 
-## Project setup
-```
-npm install
-```
+#Description
+A simple dashboard that allows users to perform basic CRUD operations.
+This project was a code along, created to teach the many aspects to a Vue project (components, data-binding and etc)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+If you would like to run this application, simply:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```npm install```
 
-### Lints and fixes files
-```
-npm run lint
-```
+```npm run serve```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+If you're interested in creating the same project, please visit [Tania Rascia website](https://www.taniarascia.com/).
