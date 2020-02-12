@@ -6,7 +6,8 @@
     <employee-table 
        :employees="employees" 
        @delete:employee="deleteEmployee"
-       @edit:employee="editEmployee" />
+       @edit:employee="editEmployee" 
+       @duplicate:employee="duplicateEmployee" />
   </div>
 </template>
 
@@ -62,6 +63,15 @@ export default {
           employee.id === id ? updatedEmployee : employee
           )
         },
+        duplicateEmployee(employee) {
+          // way #1
+          // let dupEmployee = JSON.parse(JSON.stringify(employees))
+          // this.employees.push(dupEmployee)
+
+          // way #2
+          let dupEmployee = Object.assign({}, employee)
+          this.employees.push(dupEmployee)
+          },
   }
 }
 </script>

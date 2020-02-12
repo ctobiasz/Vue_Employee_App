@@ -28,6 +28,7 @@
                      <button @click="$emit('delete:employee', employee.id)">
                          Delete
                      </button>
+                     <button @click="$emit('duplicate:employee', employee)">Duplicate</button>
                    </td>
                </tr>
             </tbody>
@@ -59,13 +60,13 @@ export default {
             if (employee.name === '' || employee.email === '') return
             this.$emit('edit:employee', employee.id, employee)
             this.editing = null
-        }
+        },
     }
 }
 </script>
 
 <style scoped>
   button {
-      margin: 0 0.5rem 0 0;
+      margin: 0 0.2rem 0 0;
   }
 </style>
